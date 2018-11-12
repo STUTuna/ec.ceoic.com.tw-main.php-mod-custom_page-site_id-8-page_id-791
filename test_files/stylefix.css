@@ -1,0 +1,59 @@
+/* 
+    Document   : stylefix
+    Created on : 2011/6/15, 下午 02:04:12
+    Author     : cwlin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#main { overflow: hidden; }
+
+/* for Internet Explorer */
+/*\*/
+* html #main { height:500px; overflow: visible;}
+/**/
+
+/*\*/
+* html #sidenav { height:495px; overflow: visible;}
+/**/
+
+/*\*/
+* html #sidenav2 { height:495px; overflow: visible;}
+/**/
+
+/*\*/
+* html #footer { height:20px; overflow: visible;}
+/**/
+
+#container { position: relative; } /* 用來對齊橫式選單位置 */
+#content{ float:left; margin-bottom:-10000px; padding-bottom: 10000px; }
+#sidenav{ float:left; margin-bottom:-10000px; padding-bottom: 10000px;}
+#sidenav2{ float:left; margin-bottom:-10000px; padding-bottom: 10000px; }
+
+/*避免IE 6選單被SELECT物件覆蓋*/
+.select-free
+{
+	position:absolute;
+	z-index:10;/*any value*/
+	overflow:hidden;/*must have*/
+	width:33em;/*must have for any value*/;
+}
+.select-free iframe
+{
+	display:none;/*sorry for IE5*/
+	display/**/:block;/*sorry for IE5*/
+	position:absolute;/*must have*/
+	top:0;/*must have*/
+	left:0;/*must have*/
+	z-index:-1;/*must have*/
+	filter:mask();/*must have*/
+	width:3000px;/*must have for any big value*/
+	height:3000px/*must have for any big value*/;
+}
+
+.select-free .bd{border:solid 1px #aaaaaa;padding:12px;}

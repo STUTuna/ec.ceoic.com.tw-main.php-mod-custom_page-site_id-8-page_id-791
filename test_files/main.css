@@ -1,0 +1,239 @@
+body {
+	margin: 0px auto; 
+	padding: 0px; 
+}
+form {
+	margin: 0px; 
+}
+a:link {
+	color: rgb(43, 43, 43); 
+	text-decoration: none; 
+}
+a:visited {
+	color: rgb(43, 43, 43); 
+	text-decoration: none; 
+}
+a:active {
+	color: rgb(43, 43, 43); 
+	text-decoration: none; 
+}
+#container {
+	border: 0px solid rgb(0, 0, 0); 
+	margin: 0px auto; 
+	height: auto; 
+	background-color: transparent; 
+	width: 1520px; 
+}
+#header {
+	border-width: medium 1px; 
+	background-repeat: no-repeat; 
+	height: 280px; 
+	text-align: center; 
+	background-color: rgb(255, 255, 255); 
+	border-color: rgb(51, 85, 102); 
+	border-bottom-style: solid; 
+	border-top-style: solid; 
+	background-position: center top; 
+}
+#flashDiv {
+	margin: 0px; 
+	left: 0px; 
+	width: 100%; 
+}
+#webName {
+	padding: 12px 0px 3px 16px; 
+	left: 355px; 
+	font: bold 23px Verdana, sans-serif; 
+	color: rgb(0, 0, 0); 
+	text-align: left; 
+}
+#webName a {
+	color: rgb(0, 0, 0); 
+}
+#webTitle {
+	padding-left: 50px; 
+	left: 355px; 
+	font: 14px Verdana, Arial, Helvetica, sans-serif; 
+	color: rgb(51, 85, 102); 
+	padding-top: 6px; 
+	text-align: left; 
+}
+#menu {
+	text-align: right; 
+}
+#menu li {
+	display: inline; 
+}
+#main {
+	background: none 0% 50% repeat scroll rgb(255, 255, 255); 
+	min-height: 500px; 
+	height: auto; 
+}
+#sidenav {
+	min-height: 495px; 
+	float: left; 
+	width: 20%; 
+	padding-top: 6px; 
+	height: auto; 
+	background-color: rgb(221, 221, 221); 
+}
+#sidenav2 {
+	min-height: 495px; 
+	float: left; 
+	width: 20%; 
+	padding-top: 6px; 
+	background-color: rgb(221, 221, 221); 
+}
+.sideArea {
+	margin: 0px auto; 
+	font: 12px Verdana, sans-serif; 
+	width: 98%; 
+	background-color: transparent; 
+	text-align: center; 
+}
+.sideAreaHeader {
+	border-width: thin 1px; 
+	border-style: solid none; 
+	border-color: rgb(51, 85, 102); 
+	margin: 0px auto; 
+	background-position: center 50%; 
+	overflow-y: hidden; 
+	font-weight: bolder; 
+	width: 90%; 
+	line-height: 18px; 
+	background-color: rgb(136, 170, 170); 
+	font-size: 12px; 
+	height: 50px; 
+}
+.sideAreaContent {
+	border-width: medium 1px; 
+	border-style: none; 
+	border-color: rgb(245, 193, 57); 
+	margin: 0px auto; 
+	width: 90%; 
+	background-color: rgb(255, 255, 255); 
+}
+.sideAreaFooter {
+	border-width: thin 1px; 
+	border-style: solid none; 
+	border-color: rgb(51, 85, 102); 
+	margin: 0px auto; 
+	background-position: center 50%; 
+	overflow-y: hidden; 
+	font-weight: bolder; 
+	width: 90%; 
+	line-height: 18px; 
+	background-color: rgb(136, 170, 170); 
+	font-size: 12px; 
+	height: 0px; 
+}
+#content {
+	padding-top: 6px; 
+	min-height: 495px; 
+	float: left; 
+	width: 80%; 
+	height: auto; 
+	background-color: rgb(255, 255, 255); 
+}
+.block {
+	padding: 5px; 
+}
+.blockHeader {
+	border-width: thin 1px; 
+	border-style: solid none; 
+	border-color: rgb(51, 85, 102); 
+	margin: 0px auto; 
+	overflow-y: hidden; 
+	padding-left: 4px; 
+	font-weight: bolder; 
+	font-size: 14px; 
+	color: rgb(0, 0, 0); 
+	line-height: 28px; 
+	height: 28px; 
+	background-color: rgb(136, 170, 170); 
+}
+.itemInformation {
+	border: 1px solid rgb(238, 238, 238); 
+	margin: 0px; 
+	font-weight: normal; 
+	font-size: 13px; 
+	width: 100%; 
+	color: rgb(31, 86, 201); 
+	font-style: normal; 
+	height: 25px; 
+	text-align: right; 
+}
+#itemInformation ul {
+	margin: 5px 0px; 
+}
+#itemInformation ul li {
+	display: inline; 
+}
+.itemContent {
+	border-width: medium; 
+	margin: 0px auto 5px; 
+	font: 12px Arial, Helvetica, sans-serif; 
+	color: rgb(0, 0, 0); 
+	background-color: transparent; 
+	border-style: none; 
+}
+.blockFooter {
+	margin: 0px auto 8px; 
+	font: 12px Verdana, sans-serif; 
+	color: rgb(0, 0, 0); 
+	height: 16px; 
+	background-color: transparent; 
+	text-align: center; 
+}
+#footer {
+	margin: 0px auto; 
+	clear: both; 
+	font-size: 14px; 
+	min-height: 20px; 
+	background-repeat: no-repeat; 
+	background-image: url("images/footer.png"); 
+	background-color: rgb(136, 170, 170); 
+	text-align: center; 
+	vertical-align: middle; 
+	height: 234px; 
+	line-height: 185px; 
+	background-position: center center; 
+}
+#footer a {
+	color: rgb(255, 255, 255); 
+}
+#menuDiv a {
+	color: rgb(0, 0, 0); 
+}
+#menuDiv a:hover {
+	color: rgb(0, 0, 0); 
+	text-decoration: none; 
+}
+#menuDiv {
+	font-weight: normal; 
+	font-size: 14px; 
+	font-style: normal; 
+}
+#webName a:hover {
+	color: rgb(105, 105, 105); 
+}
+#webTitle a {
+}
+#menuDiv2 {
+	font-weight: bold; 
+	font-size: 14px; 
+	font-style: italic; 
+}
+#menuDiv2 a {
+	color: rgb(0, 0, 0); 
+}
+#menuDiv2 a:hover {
+	color: rgb(255, 0, 223); 
+	text-decoration: underline; 
+}
+.shelves_block_div {
+	margin: 3px; 
+}
+.shelves_goods_div {
+	width: 200px; 
+}

@@ -1,0 +1,105 @@
+/* blue grades - root level; text properties for states: normal, hover, click */
+.TM0i0 {
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:rgb(0, 0, 0);
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none; 
+}
+.TM0i1 {
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:rgb(0, 0, 0);
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none; 
+}
+
+
+/* blue grades - root level; box properties for states: normal */
+.TM0o0 {
+	background: #EEEEEE;
+	background-repeat: no-repeat; 
+	background-position: left top; 
+	background-attachment: scroll; 
+	border: 1px solid #FFFFFF;
+	border-style:solid;
+	padding: 2px; 
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+/* blue grades - root level; box properties for states: hover, click */
+.TM0o1 {
+	/* font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif; */
+	background:#EEEEEE;
+	background-repeat: no-repeat; 
+	background-position: left top; 
+	background-attachment: scroll; 
+	border: 1px solid #FFFFFF;
+	border-style:solid;
+	color: rgb(0, 0, 0);
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	padding: 2px; 
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+/* blue grades - sub levels; box properties for states: normal */
+.TM1o0 {
+	background: #EEEEEE;
+	background-repeat: no-repeat; 
+	background-position: left top; 
+	background-attachment: scroll; 
+	border: 1px solid #FFFFFF;
+	border-style:solid;
+	color:rgb(0, 0, 0);
+	font-size: 12px;
+	padding: 2px; 
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none; 
+}
+
+/* blue grades - sub levels; box properties for states: hover, click */
+.TM1o1 {
+	/* font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif; */
+	background:#EEEEEE;
+	background-repeat: no-repeat; 
+	background-position: left top; 
+	background-attachment: scroll; 
+	border: 1px solid #FFFFFF;
+	border-style:solid;
+	/* color:rgb(0, 0, 0); */
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	padding: 2px; 
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.TMxxx {
+	font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #EEEEEE;
+	background-repeat: no-repeat; 
+	background-position: left top; 
+	background-attachment: scroll; 
+	border: 1px solid #FFFFFF;
+	border-style:solid;
+	color:rgb(0, 0, 0);
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	padding: 2px; 
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	
+}
